@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Home</title>
+</head>
+<body>
+    <header>
+        <nav class="menu">
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT ME</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="header-image">
+            <img src="header_bg.png" alt="Header background" style="width:100%;">
+            <div class="header-title">ANGELA MAJESTIC</div>
+            <div class="header-text">/* programmer and artist */</div>
+        </div>
+        <section class="work">
+            <h1>WORK</h1>
+            <h2>Toad's Tonics</h2>
+            <div class="columns">
+                <div class="art">
+                    <img class="work1-slides" alt="main menu" src="work1-1.png">
+                    <img class="work1-slides" alt="settings menu" src="work1-2.png">
+                    <img class="work1-slides" alt="accessibility menu" src="work1-3.png">
+                    <img class="work1-slides" alt="game screen" src="work1-4.png">
+                    <img class="work1-slides" alt="pause screen" src="work1-5.png">
+                    <img class="work1-slides" alt="potion shop" src="work1-6.png">
+                    <img class="work1-slides" alt="ingredients shop" src="work1-7.png">
+                    <button class="button-left" onclick="plusDivs(-1, 0)">&#10094;</button>
+                    <button class="button-right" onclick="plusDivs(1, 0)">&#10095;</button>
+                </div>
+                <div class="description">
+                    <p class="blurb"><i>Toad's Tonics</i> is a crafting-type video game. Players will play as Toad and complete potion orders for Toad's neighboring woodland friends. 
+                    Each potion has a recipe, and if the player has the right ingredients, they can play a short mini-game to create the potion. 
+                    The higher the mini-game score, the higher the grade of the potion (S grade, A+ grade, A grade, A- grade, B+ grade, etc.). 
+                    Customers will be willing to spend more flies for higher grade potions. Toad can then spend his flies at the store to unlock new potion recipes and buy more ingredients.</p>
+                    <div class="blurb">
+                        <ul>
+                            <li>Created a visual composition for a potential crafting game including a main menu, a settings and accessibility menu, pause screen, and store menu</li>
+                            <li>Completed composition and wireframe in Adobe XD</li>
+                            <li>Designed and drew all icons such as Toad, the recipe book, the potions, and the ingredients</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="work">
+            <h2>Rainbow Runes</h2>
+            <div class="columns">
+                <div class="art">
+                    <img class="work2-slides" alt="initial game screen" src="work2-1.png">
+                    <img class="work2-slides" alt="dog talking with frog" src="work2-2.png">
+                    <img class="work2-slides" alt="dog activating a rune" src="work2-3.png">
+                    <img class="work2-slides" alt="dog with an enemy" src="work2-4.png">
+                    <img class="work2-slides" alt="finished the game" src="work2-5.png">
+                    <img class="work2-slides" alt="sprites for animation of the dog" src="work2-6.png">
+                    <button class="button-left" onclick="plusDivs(-1, 1)">&#10094;</button>
+                    <button class="button-right" onclick="plusDivs(1, 1)">&#10095;</button>
+                </div>
+                <div class="description">
+                    <p class="blurb"><i>Rainbow Runes</i> is a puzzle 2D platformer game. A dog has accidentally stepped through a portal to another world, and he needs to reactive the portal to return home. 
+                    To reactivate the portal, the player must activate runes in a specific order while avoiding enemies and traps.</p>
+                    <div class="blurb">
+                        <ul>
+                            <li>2D puzzle platform game created in Unity utilizing tilemaps and tile palettes</li>
+                            <li>Players must complete the puzzle of activating runes in a specific order (rainbow order)</li>
+                            <li>Includes enemies, a pickup item that activates a double jump, traps, shakeable tiles, and an NPC with a dialogue system</li>
+                            <li>Created all sprites, backgrounds, and animations in FireAlpaca</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="work">
+            <h2>Spring to Summer</h2>
+            <div class="columns">
+                <div class="art">
+                    <img class="work3-slides" alt="main menu" src="work3-1.png">
+                    <img class="work3-slides" alt="level 1 fighting flowers and pollen" src="work3-2.png">
+                    <img class="work3-slides" alt="level 2 fighting rain clouds" src="work3-3.png">
+                    <button class="button-left" onclick="plusDivs(-1, 2)">&#10094;</button>
+                    <button class="button-right" onclick="plusDivs(1, 2)">&#10095;</button>
+                </div>
+                <div class="description">
+                    <p class="blurb"><i>Spring to Summer</i> is a 2D shooter. Players play as a weather fairy that must defeat spring-type obstacles (such as bees, flowers, pollen, and rain clouds) in order to make way for summer.</p>
+                    <div class="blurb">
+                        <ul>
+                            <li>2D shooter game created in Unity</li>
+                            <li>Includes stationary enemies, shooter enemies, and chaser enemies</li>
+                            <li>Complete with music and sound effects</li>
+                            <li>Created all sprites, backgrounds, and animations in FireAlpaca</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+    <script src="slideshow.js"></script>
+</body>
+</html>
